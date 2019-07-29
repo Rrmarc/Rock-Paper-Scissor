@@ -64,7 +64,7 @@ header > h1 {
 }
 
 .choice {
-  border: 4px solid #e25840;
+  border: 4px solid white;
   border-radius: 5px;
   display: inline-block;
   margin: 0 20px;
@@ -74,7 +74,7 @@ header > h1 {
 
 .choice:hover {
   cursor: pointer;
-  border: 4px solid green;
+  border: 4px solid white;
 }
 
 #action-message {
@@ -83,4 +83,19 @@ header > h1 {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+}
+
+.green-glow {
+  border: 6px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+  border: 6px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+  border: 6px solid #464647;
+  box-shadow: 0 0 10px #25292b;
 }
